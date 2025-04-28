@@ -1,5 +1,5 @@
 FROM node:23
-WORKDIR /app
+WORKDIR /src
 COPY . .
 RUN npm install
 EXPOSE 3000
